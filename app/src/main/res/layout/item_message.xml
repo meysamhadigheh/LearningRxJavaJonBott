@@ -75,9 +75,11 @@
             android:id="@+id/titleTextView"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="2"
+            android:singleLine="false"
             android:textAlignment="viewStart"
             android:textSize="18sp"
-            android:ellipsize="end"
             app:layout_constraintEnd_toEndOf="@+id/userIdTextView"
             app:layout_constraintStart_toStartOf="@+id/userIdTextView"
             app:layout_constraintTop_toTopOf="@+id/titleLabel" />
